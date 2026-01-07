@@ -1,0 +1,46 @@
+{
+    "metadata" : {
+        "name" : "Metadata",
+        "dic" : {
+            "Antal Element" : "INTEGER",
+            "Övre y-koordinat" : "INTEGER",
+            "Nedre y-koordinat" : "INTEGER",
+            "Procentuell skärmslockad" : "INTEGER",
+            "Filstorlek (b)" : "INTEGER",
+            "Antal aktivitetshanterarvärden" : "INTEGER"
+        }
+    },
+    "events" : {
+        "name" : "Event",
+        "dic" : {
+            "Tid (UTC)" : "TEXT",
+            "ID" : "INTEGER",
+            "Händelsetyp" : "TEXT",
+            "Nivå" : "INTEGER",
+            "Meddelande" : "TEXT",
+            "Ursprungsprocess" : "TEXT",
+            "XML" : "TEXT",
+            "Kanal" : "TEXT"
+        }
+    },
+    "task_manager" : {
+        "name" : "Aktivitetshanteraren",
+        "dic" : {
+            "Datatyp" : "TEXT",
+            "Procentuell CPU-anvädning" : "INTEGER",
+            "CPU-temperatur (C)" : "INTEGER",
+            "Procentuell GPU-användning" : "INTEGER",
+            "Total RAM-användning (Gb)" : "INTEGER",
+            "Procentuell RAM-anvädning" : "INTEGER"
+        }
+    },
+    "stats" : {
+        "name" : "Statistik",
+        "dic" : {
+            "Process" : "TEXT",
+            "ID" : "INTEGER",
+            "Antal filförekomster" : "INTEGER",
+            "Totalt antal förekomster" : "INTEGER"
+        }
+    }
+}
